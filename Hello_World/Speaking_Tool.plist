@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Country</key>
+		<string>Afghanistan (persian)</string>
+		<key>I love you</key>
+		<string>(asheghetam) ______</string>
+		<key>excuse me</key>
+		<string>(mazerat mikham) _____ ______ (bebakhshid) ______!</string>
+		<key>flag</key>
+		<string>22px-Flag_of_Afghanistan.png</string>
+		<key>good bye</key>
+		<string>(bedrood) _____ (khoda hafez) _______</string>
+		<key>happy birthday</key>
+		<string>(tavallodet mob_rak) _____ _____</string>
+		<key>hello</key>
+		<string>(dorood) ____ (salm) ____</string>
+		<key>id</key>
+		<string>afg</string>
+		<key>no</key>
+		<string>kheyr / na</string>
+		<key>please</key>
+		<string>(lotfan) ____</string>
+		<key>thank you</key>
+		<string>(mamn_nam) ______</string>
+		<key>yes</key>
+		<string>bale (polite) / re (slang)</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Albania</string>
+		<key>I love you</key>
+		<string>T dua</string>
+		<key>excuse me</key>
+		<string>M fal!</string>
+		<key>flag</key>
+		<string>22px-Flag_of_Albania.png</string>
+		<key>good bye</key>
+		<string>Pacim, Mirupafshim</string>
+		<key>happy birthday</key>
+		<string>Gzuar Ditlindjen</string>
+		<key>hello</key>
+		<string>C'kemi, Tungjatjeta</string>
+		<key>id</key>
+		<string>alb</string>
+		<key>no</key>
+		<string>jo</string>
+		<key>please</key>
+		<string>Lutem</string>
+		<key>thank you</key>
+		<string>Faleminderit</string>
+		<key>yes</key>
+		<string>po</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Algeria (arabic)</string>
+		<key>I love you</key>
+		<string>(&gt;f uh_ibbik / &gt;m u_ibbak) ____</string>
+		<key>excuse me</key>
+		<string>(min fad_lak/ik) __ ____!</string>
+		<key>flag</key>
+		<string>22px-Flag_of_Algeria.png</string>
+		<key>good bye</key>
+		<string>(ma'is sal_ma) __ ________</string>
+		<key>happy birthday</key>
+		<string>(wa inta tayyib &gt;m, wa inti tayyiba &gt;f)</string>
+		<key>hello</key>
+		<string>(wa 'alaykum is sal_m) ______ _______</string>
+		<key>id</key>
+		<string>alg</string>
+		<key>no</key>
+		<string>laa</string>
+		<key>please</key>
+		<string>(m_n f__l_k_) __ ____</string>
+		<key>thank you</key>
+		<string>(shukran jaz_lan) ____ ____</string>
+		<key>yes</key>
+		<string>___ (naam)</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>AndorraÊ(spanish)</string>
+		<key>I love you</key>
+		<string>Te amo / Te quiero</string>
+		<key>excuse me</key>
+		<string>Perdone!</string>
+		<key>flag</key>
+		<string>22px-Flag_of_Andorra.png</string>
+		<key>good bye</key>
+		<string>Adis, Hasta luego, Hasta la vista, Hasta maana</string>
+		<key>happy birthday</key>
+		<string>Áfeliz cumpleaos!</string>
+		<key>hello</key>
+		<string>Hola!</string>
+		<key>id</key>
+		<string>and</string>
+		<key>no</key>
+		<string>no</string>
+		<key>please</key>
+		<string>Por favor</string>
+		<key>thank you</key>
+		<string>Muchas gracias</string>
+		<key>yes</key>
+		<string>s</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Angola (portugese)</string>
+		<key>I love you</key>
+		<string>Eu te amo, Eu gosto de voc</string>
+		<key>excuse me</key>
+		<string>Com licena! Desculpe!</string>
+		<key>flag</key>
+		<string>22px-Flag_of_Angola.png</string>
+		<key>good bye</key>
+		<string>Adeus, Tchau</string>
+		<key>happy birthday</key>
+		<string>Parabns / Feliz aniversrio</string>
+		<key>hello</key>
+		<string>Ol</string>
+		<key>id</key>
+		<string>ang</string>
+		<key>no</key>
+		<string>no</string>
+		<key>please</key>
+		<string>Por favor</string>
+		<key>thank you</key>
+		<string>Muito obrigado/a, Obrigadinho/a</string>
+		<key>yes</key>
+		<string>sim</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Antigua and Barbuda  (English)</string>
+		<key>I love you</key>
+		<string>I love you</string>
+		<key>excuse me</key>
+		<string>excuse me</string>
+		<key>flag</key>
+		<string>22px-Flag_of_Antigua_and_Barbuda.png</string>
+		<key>good bye</key>
+		<string>Good Bye</string>
+		<key>happy birthday</key>
+		<string>happy birthday</string>
+		<key>hello</key>
+		<string>hello</string>
+		<key>id</key>
+		<string>anb</string>
+		<key>no</key>
+		<string>no</string>
+		<key>please</key>
+		<string>please</string>
+		<key>thank you</key>
+		<string>Thank You</string>
+		<key>yes</key>
+		<string>yes</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Argentina (spanish)</string>
+		<key>I love you</key>
+		<string>Te amo / Te quiero</string>
+		<key>excuse me</key>
+		<string>Perdone!</string>
+		<key>flag</key>
+		<string>22px-Flag_of_Argentina.png</string>
+		<key>good bye</key>
+		<string>Adis, Hasta luego, Hasta la vista, Hasta maana</string>
+		<key>happy birthday</key>
+		<string>Áfeliz cumpleaos!</string>
+		<key>hello</key>
+		<string>Hola!</string>
+		<key>id</key>
+		<string>arg</string>
+		<key>no</key>
+		<string>no</string>
+		<key>please</key>
+		<string>Por favor</string>
+		<key>thank you</key>
+		<string>Muchas gracias</string>
+		<key>yes</key>
+		<string>s</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Armenia</string>
+		<key>I love you</key>
+		<string>______ __ ___: (Sirum em kez)</string>
+		<key>excuse me</key>
+		<string>__________'__: (Nerogh.utyun)</string>
+		<key>flag</key>
+		<string>22px-Flag_of_Armenia.png</string>
+		<key>good bye</key>
+		<string>__________'__: (Hajoghutyun)</string>
+		<key>happy birthday</key>
+		<string>_______ _________ (Ts.nundet shnorhavor)</string>
+		<key>hello</key>
+		<string>____ ___ (Barev dzez)</string>
+		<key>id</key>
+		<string>arm</string>
+		<key>no</key>
+		<string>votch</string>
+		<key>please</key>
+		<string>______ (khentrem)</string>
+		<key>thank you</key>
+		<string>________________ (Shnorhakalutyun)</string>
+		<key>yes</key>
+		<string>ayo</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Australia (english)</string>
+		<key>I love you</key>
+		<string>I love you</string>
+		<key>excuse me</key>
+		<string>excuse me</string>
+		<key>flag</key>
+		<string>22px-Flag_of_Australia.png</string>
+		<key>good bye</key>
+		<string>Good Bye</string>
+		<key>happy birthday</key>
+		<string>happy birthday</string>
+		<key>hello</key>
+		<string>hello</string>
+		<key>id</key>
+		<string>au</string>
+		<key>no</key>
+		<string>no</string>
+		<key>please</key>
+		<string>please</string>
+		<key>thank you</key>
+		<string>Thank You</string>
+		<key>yes</key>
+		<string>yes</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Austria (german)</string>
+		<key>I love you</key>
+		<string>Ich liebe Dich</string>
+		<key>excuse me</key>
+		<string>Entschuldigen Sie! Entschuldigung! Verzeihung!</string>
+		<key>flag</key>
+		<string>22px-Flag_of_Austria.png</string>
+		<key>good bye</key>
+		<string>Auf wiedersehen</string>
+		<key>happy birthday</key>
+		<string>Herzlichen Glckwunsch zum Geburstag </string>
+		<key>hello</key>
+		<string>Hallo / Guten Tag</string>
+		<key>id</key>
+		<string>aus</string>
+		<key>no</key>
+		<string>nein</string>
+		<key>please</key>
+		<string>Bitte</string>
+		<key>thank you</key>
+		<string>Danke, Danke schn, Vielen dank</string>
+		<key>yes</key>
+		<string>ja</string>
+	</dict>
+	<dict>
+		<key>Country</key>
+		<string>Azerbaijan</string>
+		<key>I love you</key>
+		<string>M_n s_ni sevir_m</string>
+		<key>excuse me</key>
+		<string>zr ist_yir_m / Ba_õ_layõn</string>
+		<key>flag</key>
+		<string>22px-Flag_of_Azerbaijan.png</string>
+		<key>good bye</key>
+		<string>Sa_ol, Xudahafiz</string>
+		<key>happy birthday</key>
+		<string>Ad gnn mbar_k</string>
+		<key>hello</key>
+		<string>Salam, Salam _leykm / _leykm salam</string>
+		<key>id</key>
+		<string>aze</string>
+		<key>no</key>
+		<string>xeyir</string>
+		<key>please</key>
+		<string>Z_hm_t olmasa</string>
+		<key>thank you</key>
+		<string>T___kkr edir_m</string>
+		<key>yes</key>
+		<string>beli</string>
+	</dict>
+</array>
+</plist>
