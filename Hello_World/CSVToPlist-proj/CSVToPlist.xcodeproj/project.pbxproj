@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE527C0D13FD9BD500A58D88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE527C0C13FD9BD500A58D88 /* Foundation.framework */; };
+		CE527C1013FD9BD500A58D88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE527C0F13FD9BD500A58D88 /* main.m */; };
+		CE527C1B13FD9C2100A58D88 /* parseCSV.m in Sources */ = {isa = PBXBuildFile; fileRef = CE527C1A13FD9C2100A58D88 /* parseCSV.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE527C0613FD9BD500A58D88 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE527C0813FD9BD500A58D88 /* CSVToPlist */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CSVToPlist; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE527C0C13FD9BD500A58D88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE527C0F13FD9BD500A58D88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE527C1213FD9BD500A58D88 /* CSVToPlist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSVToPlist-Prefix.pch"; sourceTree = "<group>"; };
+		CE527C1313FD9BD600A58D88 /* CSVToPlist.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CSVToPlist.1; sourceTree = "<group>"; };
+		CE527C1913FD9C2100A58D88 /* parseCSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseCSV.h; sourceTree = "<group>"; };
+		CE527C1A13FD9C2100A58D88 /* parseCSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parseCSV.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE527C0513FD9BD500A58D88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE527C0D13FD9BD500A58D88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE527BFD13FD9BD500A58D88 = {
+			isa = PBXGroup;
+			children = (
+				CE527C0E13FD9BD500A58D88 /* CSVToPlist */,
+				CE527C0B13FD9BD500A58D88 /* Frameworks */,
+				CE527C0913FD9BD500A58D88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE527C0913FD9BD500A58D88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE527C0813FD9BD500A58D88 /* CSVToPlist */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE527C0B13FD9BD500A58D88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE527C0C13FD9BD500A58D88 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE527C0E13FD9BD500A58D88 /* CSVToPlist */ = {
+			isa = PBXGroup;
+			children = (
+				CE527C1913FD9C2100A58D88 /* parseCSV.h */,
+				CE527C1A13FD9C2100A58D88 /* parseCSV.m */,
+				CE527C0F13FD9BD500A58D88 /* main.m */,
+				CE527C1313FD9BD600A58D88 /* CSVToPlist.1 */,
+				CE527C1113FD9BD500A58D88 /* Supporting Files */,
+			);
+			path = CSVToPlist;
+			sourceTree = "<group>";
+		};
+		CE527C1113FD9BD500A58D88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE527C1213FD9BD500A58D88 /* CSVToPlist-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE527C0713FD9BD500A58D88 /* CSVToPlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE527C1613FD9BD600A58D88 /* Build configuration list for PBXNativeTarget "CSVToPlist" */;
+			buildPhases = (
+				CE527C0413FD9BD500A58D88 /* Sources */,
+				CE527C0513FD9BD500A58D88 /* Frameworks */,
+				CE527C0613FD9BD500A58D88 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSVToPlist;
+			productName = CSVToPlist;
+			productReference = CE527C0813FD9BD500A58D88 /* CSVToPlist */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE527BFF13FD9BD500A58D88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Habrok-Home";
+			};
+			buildConfigurationList = CE527C0213FD9BD500A58D88 /* Build configuration list for PBXProject "CSVToPlist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE527BFD13FD9BD500A58D88;
+			productRefGroup = CE527C0913FD9BD500A58D88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE527C0713FD9BD500A58D88 /* CSVToPlist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE527C0413FD9BD500A58D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE527C1013FD9BD500A58D88 /* main.m in Sources */,
+				CE527C1B13FD9C2100A58D88 /* parseCSV.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE527C1413FD9BD600A58D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE527C1513FD9BD600A58D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE527C1713FD9BD600A58D88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSVToPlist/CSVToPlist-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE527C1813FD9BD600A58D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CSVToPlist/CSVToPlist-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE527C0213FD9BD500A58D88 /* Build configuration list for PBXProject "CSVToPlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE527C1413FD9BD600A58D88 /* Debug */,
+				CE527C1513FD9BD600A58D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE527C1613FD9BD600A58D88 /* Build configuration list for PBXNativeTarget "CSVToPlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE527C1713FD9BD600A58D88 /* Debug */,
+				CE527C1813FD9BD600A58D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE527BFF13FD9BD500A58D88 /* Project object */;
+}
