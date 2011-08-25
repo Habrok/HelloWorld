@@ -14,8 +14,15 @@
 		CEEEBDB713FE748B005A385A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEBDB613FE748B005A385A /* main.m */; };
 		CEEEBDBA13FE748B005A385A /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEBDB913FE748B005A385A /* HelloWorldAppDelegate.m */; };
 		CEEEBDBD13FE748B005A385A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEEBDBB13FE748B005A385A /* MainWindow.xib */; };
-		CEEEBDC013FE748B005A385A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEBDBF13FE748B005A385A /* RootViewController.m */; };
-		CEEEBDC313FE748B005A385A /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEEEBDC113FE748B005A385A /* RootViewController.xib */; };
+		CEEEBDEE13FE9897005A385A /* SecondLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEBDEB13FE9897005A385A /* SecondLevelViewController.m */; };
+		CEEEBDEF13FE9897005A385A /* FirstLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEBDED13FE9897005A385A /* FirstLevelViewController.m */; };
+		CEEEBDF813FE9B5E005A385A /* President.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEBDF213FE9B5C005A385A /* President.m */; };
+		CEEEBDF913FE9B5E005A385A /* PresidentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEBDF413FE9B5C005A385A /* PresidentViewController.m */; };
+		CEEEBDFB13FE9B5E005A385A /* Presidents.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEEEBDF713FE9B5D005A385A /* Presidents.plist */; };
+		CEEEBDFD13FEA127005A385A /* Speaking_Tool.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEEEBDFC13FEA127005A385A /* Speaking_Tool.plist */; };
+		CEEEBE0013FEAFCE005A385A /* PresidentDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEBDFF13FEAFCE005A385A /* PresidentDetailController.m */; };
+		CEEEBE0313FEB03D005A385A /* IdiomsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEEBE0213FEB03C005A385A /* IdiomsViewController.m */; };
+		CEF06E5014044E2A0008F290 /* Idioms.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF06E4F14044E290008F290 /* Idioms.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +37,22 @@
 		CEEEBDB813FE748B005A385A /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
 		CEEEBDB913FE748B005A385A /* HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppDelegate.m; sourceTree = "<group>"; };
 		CEEEBDBC13FE748B005A385A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		CEEEBDBE13FE748B005A385A /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		CEEEBDBF13FE748B005A385A /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		CEEEBDC213FE748B005A385A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		CEEEBDEA13FE9897005A385A /* SecondLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLevelViewController.h; sourceTree = "<group>"; };
+		CEEEBDEB13FE9897005A385A /* SecondLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLevelViewController.m; sourceTree = "<group>"; };
+		CEEEBDEC13FE9897005A385A /* FirstLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLevelViewController.h; sourceTree = "<group>"; };
+		CEEEBDED13FE9897005A385A /* FirstLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLevelViewController.m; sourceTree = "<group>"; };
+		CEEEBDF113FE9B5C005A385A /* President.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = President.h; sourceTree = "<group>"; };
+		CEEEBDF213FE9B5C005A385A /* President.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = President.m; sourceTree = "<group>"; };
+		CEEEBDF313FE9B5C005A385A /* PresidentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresidentViewController.h; sourceTree = "<group>"; };
+		CEEEBDF413FE9B5C005A385A /* PresidentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresidentViewController.m; sourceTree = "<group>"; };
+		CEEEBDF713FE9B5D005A385A /* Presidents.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Presidents.plist; sourceTree = "<group>"; };
+		CEEEBDFC13FEA127005A385A /* Speaking_Tool.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Speaking_Tool.plist; sourceTree = "<group>"; };
+		CEEEBDFE13FEAFCD005A385A /* PresidentDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresidentDetailController.h; sourceTree = "<group>"; };
+		CEEEBDFF13FEAFCE005A385A /* PresidentDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresidentDetailController.m; sourceTree = "<group>"; };
+		CEEEBE0113FEB03A005A385A /* IdiomsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdiomsViewController.h; sourceTree = "<group>"; };
+		CEEEBE0213FEB03C005A385A /* IdiomsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdiomsViewController.m; sourceTree = "<group>"; };
+		CEF06E4E14044E290008F290 /* Idioms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Idioms.h; sourceTree = "<group>"; };
+		CEF06E4F14044E290008F290 /* Idioms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Idioms.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,10 +102,23 @@
 				CEEEBDB813FE748B005A385A /* HelloWorldAppDelegate.h */,
 				CEEEBDB913FE748B005A385A /* HelloWorldAppDelegate.m */,
 				CEEEBDBB13FE748B005A385A /* MainWindow.xib */,
-				CEEEBDBE13FE748B005A385A /* RootViewController.h */,
-				CEEEBDBF13FE748B005A385A /* RootViewController.m */,
-				CEEEBDC113FE748B005A385A /* RootViewController.xib */,
+				CEEEBDEA13FE9897005A385A /* SecondLevelViewController.h */,
+				CEEEBDEB13FE9897005A385A /* SecondLevelViewController.m */,
+				CEEEBDEC13FE9897005A385A /* FirstLevelViewController.h */,
+				CEEEBDED13FE9897005A385A /* FirstLevelViewController.m */,
+				CEF06E4E14044E290008F290 /* Idioms.h */,
+				CEF06E4F14044E290008F290 /* Idioms.m */,
+				CEEEBDF113FE9B5C005A385A /* President.h */,
+				CEEEBDF213FE9B5C005A385A /* President.m */,
+				CEEEBDF313FE9B5C005A385A /* PresidentViewController.h */,
+				CEEEBDF413FE9B5C005A385A /* PresidentViewController.m */,
+				CEEEBDFC13FEA127005A385A /* Speaking_Tool.plist */,
+				CEEEBE0113FEB03A005A385A /* IdiomsViewController.h */,
+				CEEEBE0213FEB03C005A385A /* IdiomsViewController.m */,
 				CEEEBDB013FE748B005A385A /* Supporting Files */,
+				CEEEBDF713FE9B5D005A385A /* Presidents.plist */,
+				CEEEBDFE13FEAFCD005A385A /* PresidentDetailController.h */,
+				CEEEBDFF13FEAFCE005A385A /* PresidentDetailController.m */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -153,7 +186,8 @@
 			files = (
 				CEEEBDB413FE748B005A385A /* InfoPlist.strings in Resources */,
 				CEEEBDBD13FE748B005A385A /* MainWindow.xib in Resources */,
-				CEEEBDC313FE748B005A385A /* RootViewController.xib in Resources */,
+				CEEEBDFB13FE9B5E005A385A /* Presidents.plist in Resources */,
+				CEEEBDFD13FEA127005A385A /* Speaking_Tool.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +200,13 @@
 			files = (
 				CEEEBDB713FE748B005A385A /* main.m in Sources */,
 				CEEEBDBA13FE748B005A385A /* HelloWorldAppDelegate.m in Sources */,
-				CEEEBDC013FE748B005A385A /* RootViewController.m in Sources */,
+				CEEEBDEE13FE9897005A385A /* SecondLevelViewController.m in Sources */,
+				CEEEBDEF13FE9897005A385A /* FirstLevelViewController.m in Sources */,
+				CEEEBDF813FE9B5E005A385A /* President.m in Sources */,
+				CEEEBDF913FE9B5E005A385A /* PresidentViewController.m in Sources */,
+				CEEEBE0013FEAFCE005A385A /* PresidentDetailController.m in Sources */,
+				CEEEBE0313FEB03D005A385A /* IdiomsViewController.m in Sources */,
+				CEF06E5014044E2A0008F290 /* Idioms.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,14 +227,6 @@
 				CEEEBDBC13FE748B005A385A /* en */,
 			);
 			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		CEEEBDC113FE748B005A385A /* RootViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CEEEBDC213FE748B005A385A /* en */,
-			);
-			name = RootViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -279,6 +311,7 @@
 				CEEEBDC813FE748B005A385A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "parseCSV.h"
+#import "Idioms.h"
 
 int main (int argc, const char * argv[])
 {
@@ -28,12 +29,12 @@ int main (int argc, const char * argv[])
             CSVParser *parser = [[CSVParser alloc] init];
             [parser openFile:[bundleRoot stringByAppendingPathComponent:pathAsString]];
             NSMutableArray *csvContent = [parser parseFile];
-//            NSLog(@"csv:%@", csvContent);
+//           NSLog(@"csv:%@", csvContent);
             [parser closeFile];
             
             NSArray *keyArray = [[NSArray alloc] init];
             keyArray = [csvContent objectAtIndex:0];
-//            NSLog(@"%@",[csvContent objectAtIndex:0]);
+//            NSLog(@"%@",[csvContent objectAtIndex:1]);
             NSMutableArray *plistOutputArray = [[NSMutableArray alloc] init];
             NSInteger i =0;
             for(NSArray *array in csvContent){
@@ -48,13 +49,20 @@ int main (int argc, const char * argv[])
                 }                
                 i++;
             }
+//plistOutputArray refactoring
+            Idioms *idioms = [[Idioms alloc] init];
+            NSMutableDictionary *outputArray = [idioms makeDictionary:plistOutputArray];
+
+            
+//Writing to plist file
             NSMutableString *mutableString = [NSMutableString stringWithString:[bundleRoot stringByAppendingPathComponent:pathAsString]];
             [mutableString replaceOccurrencesOfString:@".csv" 
                                            withString:@".plist" 
                                               options:nil 
                                                 range:NSMakeRange([mutableString length]-4,4)];
             NSURL *url = [NSURL fileURLWithPath:mutableString];
-            [plistOutputArray writeToURL:url atomically:YES];
+            [outputArray writeToURL:url atomically:YES];
+            
             
         }
     } 

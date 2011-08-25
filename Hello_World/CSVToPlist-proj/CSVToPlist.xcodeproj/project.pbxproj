@@ -10,6 +10,7 @@
 		CE527C0D13FD9BD500A58D88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE527C0C13FD9BD500A58D88 /* Foundation.framework */; };
 		CE527C1013FD9BD500A58D88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE527C0F13FD9BD500A58D88 /* main.m */; };
 		CE527C1B13FD9C2100A58D88 /* parseCSV.m in Sources */ = {isa = PBXBuildFile; fileRef = CE527C1A13FD9C2100A58D88 /* parseCSV.m */; };
+		CEE0C2111406A69E00AC0668 /* Idioms.m in Sources */ = {isa = PBXBuildFile; fileRef = CEE0C2101406A69E00AC0668 /* Idioms.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		CE527C1313FD9BD600A58D88 /* CSVToPlist.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CSVToPlist.1; sourceTree = "<group>"; };
 		CE527C1913FD9C2100A58D88 /* parseCSV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parseCSV.h; sourceTree = "<group>"; };
 		CE527C1A13FD9C2100A58D88 /* parseCSV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = parseCSV.m; sourceTree = "<group>"; };
+		CEE0C20F1406A69E00AC0668 /* Idioms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Idioms.h; sourceTree = "<group>"; };
+		CEE0C2101406A69E00AC0668 /* Idioms.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Idioms.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 				CE527C1913FD9C2100A58D88 /* parseCSV.h */,
 				CE527C1A13FD9C2100A58D88 /* parseCSV.m */,
 				CE527C0F13FD9BD500A58D88 /* main.m */,
+				CEE0C20F1406A69E00AC0668 /* Idioms.h */,
+				CEE0C2101406A69E00AC0668 /* Idioms.m */,
 				CE527C1313FD9BD600A58D88 /* CSVToPlist.1 */,
 				CE527C1113FD9BD500A58D88 /* Supporting Files */,
 			);
@@ -143,6 +148,7 @@
 			files = (
 				CE527C1013FD9BD500A58D88 /* main.m in Sources */,
 				CE527C1B13FD9C2100A58D88 /* parseCSV.m in Sources */,
+				CEE0C2111406A69E00AC0668 /* Idioms.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +232,7 @@
 				CE527C1813FD9BD600A58D88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
